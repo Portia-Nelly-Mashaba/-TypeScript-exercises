@@ -1,15 +1,10 @@
-
 // Declare a variable that holds a string value without explicitly stating its type:
-let firstname = "Portia!";
-
+var firstname = "Portia!";
 // Declare a variable that holds a number value and explicitly state its type:
-let count: number = 42;
-
+var count = 42;
 // Declare a variable that can hold a value of any type:
-let anything: any = "This can be any value";
-
+var anything = "This can be any value";
 // Declare a variable that can hold either a string or a number:
-let value: string | number = "Mashaba";
+var value = "Mashaba";
 value = 32;
-
-console.log(firstname, count, anything, value)
+console.log(firstname, count, anything, value);
